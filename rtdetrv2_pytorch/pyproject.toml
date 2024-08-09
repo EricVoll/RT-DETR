@@ -1,0 +1,31 @@
+[project]
+name = "rtdetrv2_pytorch"
+version = "0.0.1"
+description = "Object Detector"
+readme = ""
+authors = [
+  { name="Wenyu Lv and Yian Zhao and Qinyao Chang and Kui Huang and Guanzhong Wang and Yi Liu", email="lyuwenyu@foxmail.com" },
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+dependencies = [
+    "torch>=2.0.1",
+    "torchvision>=0.15.2",
+    "pycocotools",
+    "PyYAML",
+    "tensorboard",
+]
+
+[project.urls]
+Homepage = "https://github.com/lyuwenyu/RT-DETR"
+Issues = "https://github.com/lyuwenyu/RT-DETR/issues"
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages]
+find = {}
